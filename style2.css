@@ -26,12 +26,6 @@
 form{
     font-family: Arial, Helvetica, sans-serif;
 }
-#r1{
-    margin-left: 1cm;
-}
-#r2{
-    margin-left: 1cm;
-}
 textarea{
     height: 80px;
     width: 8%;
@@ -47,4 +41,7 @@ li{
 }
 #l3{
     background-color: #db0a5b;
+}
+ul li{
+    list-style: none;
 }

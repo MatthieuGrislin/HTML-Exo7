@@ -9,34 +9,33 @@
             <fieldset id="f1">
                 <legend id="l1">Votre identité</legend>
                 <ol>
-                    <li><label for="Nom">Nom : </label><input type="text" placeholder="Nom"></li>
-                    <li><label for="Prénom">Prénom : </label><input type="text" placeholder="Prénom"></li>
-                    <li><label for="Adresse mail">Adresse mail : </label><input type="email" placeholder="Adresse mail"></li>
+                    <li><label for="Nom">Nom : </label><input type="text" name="Nom" id="Nom" placeholder="Nom" /></li>
+                    <li><label for="Prénom">Prénom : </label><input type="text" name="Prénom" id="Prénom" placeholder="Prénom" /></li>
+                    <li><label for="Adresse mail">Adresse mail : </label><input type="email" name="Adresse mail" id="Adresse mail" placeholder="Adresse mail" /></li>
                 </ol>
             </fieldset>
             <fieldset id="f2">
                 <legend id="l2">Adresse de livraison</legend>
                 <ol>
-                    <li><label for="adresse">Adresse : </label><textarea id="adresse"></textarea></li>
-                    <li><label for="Code postal">Code postal : </label><input type="text" placeholder="Code postal"></li>
-                    <li><label for="Ville">Ville : </label><input type="text" placeholder="Ville"></li>
+                    <li><label for="Adresse">Adresse : </label><textarea id="Adresse" name="Adresse"></textarea></li>
+                    <li><label for="Code postal">Code postal : </label><input type="text" name="Code postal" id="Code postal" placeholder="Code postal" /></li>
+                    <li><label for="Ville">Ville : </label><input type="text" id="Ville" name="Ville" placeholder="Ville" /></li>
                 </ol>
             </fieldset>
             <fieldset id="f3">
                 <legend id="l3">Informations de réglement</legend>
                 <ol>
                     <li><label for="Type de carte bancaire">Type de carte bancaire :</label></li>
-                    <input type="radio" id="r1">
-                    <label for="VISA">VISA</label>
-                    <br>
-                    <input type="radio" id="r2">
-                    <label for="Mastercard">Mastercard</label>
-                    <li><label for="Numero de carte">Numéro de carte : </label><input type="text" placeholder="Numéro de carte"></li>
-                    <li><label for="Code de sécurité">Code de sécurité : </label><input type="text" placeholder="Code de sécurité"></li>
-                    <li><label for="Nom du titulaire">Nom du titulaire : </label><input type="text" placeholder="Nom du titulaire"></li>
+                        <ul>
+                            <li id="lisp1"><input type="radio" id="r1"><label for="VISA">VISA</label></li>
+                            <li id="lisp2"><input type="radio" id="r2"><label for="Mastercard">Mastercard</label></li>
+                        </ul>
+                    <li><label for="Numéro de carte">Numéro de carte : </label><input type="text" name="Numéro de carte" id="Numéro de carte" placeholder="Numéro de carte" /></li>
+                    <li><label for="Code de sécurité">Code de sécurité : </label><input type="text" name="Code de sécurité" id="Code de sécurité" placeholder="Code de sécurité" /></li>
+                    <li><label for="Nom du titulaire">Nom du titulaire : </label><input type="text" name="Nom du titulaire" id="Nom du titulaire" placeholder="Nom du titulaire" /></li>
                 </ol>
             </fieldset>
-            <button type="submit">J'achète !</button>
+            <button type="submit" name="achète">J'achète !</button>
         </form>
     </body>
 </html>
